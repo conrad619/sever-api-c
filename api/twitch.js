@@ -5,7 +5,7 @@ const client = new tmi.Client({
     secure: true,
     reconnect: true
   },
-  channels: ['your-channel']
+  channels: ['witsz']
 });
 
 module.exports = async (req, res) => {
